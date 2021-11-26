@@ -1,0 +1,10 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.App" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/agata_200</item>
+        <item name="colorPrimaryDark">@color/agata_500</item>
+        <item name="colorAccent">@color/agata_700</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

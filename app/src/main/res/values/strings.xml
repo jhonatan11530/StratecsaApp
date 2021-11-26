@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Stratecsa</string>
+    <string name="DescripcionLogin">INGRESE SU CORREO DE AGATA</string>
+    <string name="DescripcionPassword">INGRESE SU CONTRASEÑA DE AGATA</string>
+    <string name="DescripcionIngresoSistema">INGRESAR AL SISTEMA</string>
+    <string name="imagen_stratecsa">imagen Stratecsa</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="notificacion">Notificacion</string>
+    <string name="zona">Zona Influencia</string>
+    <string name="pruebas">Pruebas Sitio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
