@@ -19,7 +19,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        // new Connectar();
+        Connectar connectar = new Connectar();
 
         EditText Correo = findViewById(R.id.correo);
         EditText Password = findViewById(R.id.password);

@@ -14,10 +14,10 @@
         android:theme="@style/Theme.App">
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".LoginActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".SpashActivity"
             android:exported="true"
