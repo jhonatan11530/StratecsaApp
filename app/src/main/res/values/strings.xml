@@ -8,6 +8,25 @@
     <string name="notificacion">Notificacion</string>
     <string name="zona">Zona Influencia</string>
     <string name="pruebas">Pruebas Sitio</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contrato_no">CONTRATO No.</string>
+    <string name="contratista">CONTRATISTA</string>
+    <string name="centro_poblado">CENTRO POBLADO</string>
+    <string name="sede_instituci_n_educativa_o_caso_especial">SEDE INSTITUCIÓN EDUCATIVA O CASO ESPECIAL</string>
+    <string name="c_digo_dane_departamento">CÓDIGO DANE (DEPARTAMENTO)</string>
+    <string name="c_digo_dane_municipio">CÓDIGO DANE (MUNICIPIO)</string>
+    <string name="c_digo_dane_centro_poblado">CÓDIGO DANE CENTRO POBLADO</string>
+    <string name="c_digo_dane_sede_educativa_caso_especial">CÓDIGO DANE SEDE EDUCATIVA/CASO ESPECIAL</string>
+    <string name="c_digo_contratista">CÓDIGO CONTRATISTA</string>
+    <string name="coordenadas_m_nimo_5_decimales">COORDENADAS (MÍNIMO 5 DECIMALES)</string>
+    <string name="longitud">LONGITUD</string>
+    <string name="latitud">LATITUD</string>
+    <string name="altitud">ALTITUD</string>
+    <string name="id_beneficiario">ID BENEFICIARIO</string>
+    <string name="nombre_del_responsable_responsable_de_la_instituci_n_educativa_autoridad_competente">NOMBRE DEL RESPONSABLE (RESPONSABLE DE LA INSTITUCIÓN EDUCATIVA / AUTORIDAD COMPETENTE)</string>
+    <string name="n_mero_de_cedula">NÚMERO DE CEDULA</string>
+    <string name="correo_electr_nico">CORREO ELECTRÓNICO</string>
+    <string name="n_mero_de_contacto">NÚMERO DE CONTACTO</string>
+    <string name="fecha_de_instalaci_n">FECHA DE INSTALACIÓN</string>
+    <string name="grupo">GRUPO</string>
+    <string name="_2_equipos_instalados_en_el_centro_digital">2.EQUIPOS INSTALADOS EN EL CENTRO DIGITAL</string>
 </resources>

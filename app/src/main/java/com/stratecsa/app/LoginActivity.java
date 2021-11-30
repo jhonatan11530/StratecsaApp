@@ -20,6 +20,9 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         Connectar connectar = new Connectar();
+        String key = "google";
+        String value = "googletest";
+        connectar.get(key, value);
 
         EditText Correo = findViewById(R.id.correo);
         EditText Password = findViewById(R.id.password);

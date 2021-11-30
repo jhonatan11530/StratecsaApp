@@ -1,23 +1,32 @@
 package com.stratecsa.app;
+
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
 
-public class Connectar{
+import cz.msebera.android.httpclient.Header;
 
-    private static final String url ="https://api.github.com";
+public class Connectar {
 
-    public static AsyncHttpClient client = new AsyncHttpClient();
+    private AsyncHttpClient cliente = new AsyncHttpClient();
+    private RequestParams params = new RequestParams();
+    private String url = "https://google.com";
 
-    public static void get(String url, RequestParams params, AsyncHttpResponseHandler responseHandler) {
-        client.get(getAbsoluteUrl(url), params, responseHandler);
+    public void get(String key, String value) {
+        params.put("owner", key);
+        params.put("repo", value);
 
+        cliente.get(url, new AsyncHttpResponseHandler() {
+            @Override
+            public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
+                System.out.println("OK " + statusCode);
+            }
+
+            @Override
+            public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
+                System.out.println("ERROR " + statusCode);
+            }
+        });
     }
 
-    public static void post(String url, RequestParams params, AsyncHttpResponseHandler responseHandler) {
-        client.post(getAbsoluteUrl(url), params, responseHandler);
-    }
-    private static String getAbsoluteUrl(String relativeUrl) {
-        return url;
-    }
 }
